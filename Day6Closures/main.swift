@@ -62,3 +62,21 @@ country.sort(by: {
 country.sort(by: >)
 
 print(country)
+
+var  s=country.map{(str)->String in
+    if str.count==5
+{
+    return "\(str.count)-\(str)"
+}
+
+return "NaN"
+}
+
+print(s)
+
+s=country.filter{(str)->Bool in
+    return str.count==5
+}
+
+country.removeAll{(str)->Bool in return str.count==5}
+print(country)
