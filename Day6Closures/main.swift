@@ -49,4 +49,16 @@ country.sort(by:
     {
         (s1: String, s2: String)->Bool in return s1>s2
     })
+
+
+country.sort(by: {
+    s1,s2 in return s1>s2
+})
+
+country.sort(by: {
+    return $0>$1
+})
+
+country.sort(by: >)
+
 print(country)
