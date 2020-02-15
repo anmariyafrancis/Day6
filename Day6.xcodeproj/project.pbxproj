@@ -41,7 +41,7 @@
 		9B5EF58B23F78075002E06FA = {
 			isa = PBXGroup;
 			children = (
-				9B5EF59623F78075002E06FA /* Day6 */,
+				9B5EF59623F78075002E06FA /* Day6Closures */,
 				9B5EF59523F78075002E06FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B5EF59623F78075002E06FA /* Day6 */ = {
+		9B5EF59623F78075002E06FA /* Day6Closures */ = {
 			isa = PBXGroup;
 			children = (
 				9B5EF59723F78075002E06FA /* main.swift */,
 			);
-			path = Day6;
+			path = Day6Closures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
